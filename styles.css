@@ -1,0 +1,593 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    padding: 10px 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+
+.nav-bar {
+    padding: 20px;
+    text-align: right;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: larger;
+    font-weight: 100;
+}
+
+.career {
+    width: 90%;
+    height: 10%;
+    overflow: visible;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 60px;
+    
+}
+
+.jobtitle {
+    flex: 2;
+    padding: 0 30px;
+    padding-left: 50px;
+    margin-top: 70px;
+    width: 30%;
+    
+
+}
+
+
+.jobtitle h2 {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.jobtitle p {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.DownloadRes {
+    padding: 10px;
+    text-align: center;
+}
+
+.DownloadRes p {
+    text-align: center;
+    width: 180px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.ProfilePic {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ProfilePic img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+
+
+.box-content {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(123, 200, 238);
+}
+
+.box-de {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box-content h3 {
+    padding: 10px;
+}
+
+.box-de a {
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.C-Boxes {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    background-color: whitesmoke;
+    margin: 0 100px;
+}
+
+
+.content-box1 {
+    flex: 1;
+    border-left: none;
+    border-bottom: none;
+    padding: 10px;    
+    border-right: 15px solid rgb(123, 200, 238);
+    
+    
+}
+
+.content-box2 {
+    flex: 1;
+    border-bottom: none;
+    border-right: none;
+    padding: 10px;
+    border-left: 15px solid rgb(123, 200, 238);
+}
+
+
+
+.other-content {
+    width: 100%;
+}
+.feature {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature h3 {
+    padding: 10px;
+}
+
+.other-boxes {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.other1 {
+    display: flex;
+    border-bottom: 1px solid grey;
+    margin: 20px 100px;
+    padding: 20px;
+}
+
+.other1 img {
+    width: 280px;
+    height: 180px;
+}
+
+.other1 h3 {
+    width: 200px;
+}
+
+
+.con01 {
+    padding-left: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.other1-content {
+    height: 150x;
+}
+
+.yearbox1 {
+    display: flex;
+}
+
+.yearbox1 p {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 70px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.yearbox1 a {
+    text-align: center;
+    width: 70px;
+    padding: 3px;
+    color: grey;
+    padding-left:  50px;
+}
+
+.Footer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.Footer img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.Endfoot p {
+    margin: 30px;
+
+    text-align: center;
+    color: grey;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    padding: 10px 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav-bar {
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: larger;
+    font-weight: 100;
+}
+
+.career {
+    width: 90%;
+    height: auto;
+    overflow: visible;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 60px;
+    flex-wrap: wrap;
+}
+
+.jobtitle {
+    flex: 2;
+    padding: 0 30px;
+    padding-left: 50px;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.jobtitle h2 {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.jobtitle p {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.DownloadRes {
+    padding: 10px;
+    text-align: center;
+}
+
+.DownloadRes p {
+    text-align: center;
+    width: 180px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.ProfilePic {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ProfilePic img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.box-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(123, 200, 238);
+}
+
+.box-de {
+    margin: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box-content h3 {
+    padding: 10px;
+}
+
+.box-de a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.C-Boxes {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    background-color: whitesmoke;
+    margin: 20px 5%;
+    flex-wrap: wrap;
+}
+
+.content-box1,
+.content-box2 {
+    flex: 1;
+    padding: 10px;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.content-box1 {
+    border-right: 15px solid rgb(123, 200, 238);
+}
+
+.content-box2 {
+    border-left: 15px solid rgb(123, 200, 238);
+}
+
+.other-content {
+    width: 100%;
+}
+
+.feature {
+    margin: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature h3 {
+    padding: 10px;
+}
+
+.other-boxes {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.other1 {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid grey;
+    margin: 20px 5%;
+    padding: 20px;
+}
+
+.other1 img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+
+.other1 h3 {
+    width: 100%;
+    max-width: 200px;
+}
+
+.con01 {
+    padding-left: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.other1-content {
+    height: auto;
+}
+
+.yearbox1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.yearbox1 p {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 70px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.yearbox1 a {
+    text-align: center;
+    width: 70px;
+    padding: 3px;
+    color: grey;
+    padding-left: 50px;
+}
+
+.Footer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.Footer img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.Endfoot p {
+    margin: 30px;
+    text-align: center;
+    color: grey;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px 2%;
+    }
+
+    .career {
+        margin-left: 0;
+    }
+
+    .jobtitle {
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+
+    .box-de {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .C-Boxes {
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+    }
+
+    .content-box1,
+    .content-box2 {
+        border: none;
+        padding: 5px;
+    }
+
+    .feature {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .other1 {
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+    }
+
+    .yearbox1 {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-bar {
+        text-align: center;
+        align-items: flex-end;
+        
+    }
+
+    .nav-bar a {
+        display: block;
+        padding: 10px;
+    }
+
+    .ProfilePic img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .jobtitle {
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .box-de {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .C-Boxes {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .feature {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .other1 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
